@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Channel Searcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Channel Searcher</h1>
+    <p>Search for channels on YouTube, Twitch, Facebook, and more platforms</p>
+</header>
+<nav>
+    <a href="#" onclick="showSection('home')">Home</a>
+</nav>
+
+<main>
+    <!-- Search Section -->
+    <section id="home">
+        <h2>Search for Channels</h2>
+        <input id="searchInput" type="text" placeholder="Enter {platform} {userID}" />
+        <button onclick="searchChannels()">Search</button>
+        <div id="results"></div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
